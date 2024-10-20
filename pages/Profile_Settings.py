@@ -1,6 +1,8 @@
 import streamlit as st
 from navigation import nav_page
+
 #Sign up page
+
 st.title("Pillchek")
 st.header("Your Medication Companion")
 user_name = st.text_input("Create a unique User Name", "")
